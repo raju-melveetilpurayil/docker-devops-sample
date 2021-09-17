@@ -23,7 +23,7 @@ app.get('/profile-picture', function (req, res) {
 });
 
 let mongoUrlLocal = "mongodb://admin:password@localhost:27017";
-let mongoUrlDocker = "mongodb://admin:password@mongodb";
+let mongoUrlDocker = "mongodb://admin:password@mongodb-test1";
 let mongoClientOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 
 let databaseName = "user-account";
